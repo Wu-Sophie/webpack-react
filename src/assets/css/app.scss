@@ -1,0 +1,43 @@
+.app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0.8rem;
+  overflow: hidden;
+
+  >section {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+  }
+  
+  >footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 2;
+    width: 100%;
+    height: 0.8rem;
+    border-top: 1px solid #DEDEDE;
+    background: #FFFFFF;
+
+    .nav {
+      width: 100%;
+      overflow: hidden;
+
+      li {
+        display: inline-block;
+        float: left;
+        width: 33.33%;
+
+        a {
+          display: block;
+          height: 0.8rem;
+          line-height: 0.8rem;
+          font-size: 18px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
